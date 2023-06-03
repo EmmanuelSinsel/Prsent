@@ -232,7 +232,7 @@ public class RegisterCam extends AppCompatActivity {
                                         new OnFailureListener() {
                                             @Override
                                             public void onFailure(@NonNull Exception e) {
-                                                // Task failed with an exception
+
                                             }
                                         })
                                 .addOnCompleteListener(new OnCompleteListener<List<Face>>() {
